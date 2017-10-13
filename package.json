@@ -21,6 +21,7 @@
     "postinstall": "tabtab install --name yarn --completer completions-yarn --auto",
     "postuninstall": "tabtab uninstall --name yarn --auto",
     "output-commands": "node ./bin/output-commands.js",
-    "output-globals": "node ./bin/output-global-options.js"
+    "output-globals": "node ./bin/output-global-options.js",
+    "create": "yarn run output-commands && yarn run output-globals"
   }
 }

@@ -1,18 +1,5 @@
 [
     {
-        "command": "access",
-        "flags": [],
-        "subCommands": [
-            "public",
-            "restricted",
-            "grant",
-            "revoke",
-            "ls-packages",
-            "ls-collaborators",
-            "edit"
-        ]
-    },
-    {
         "command": "add",
         "flags": [
             "-D:save package to your `devDependencies`",
@@ -29,11 +16,6 @@
         "subCommands": []
     },
     {
-        "command": "bin",
-        "flags": [],
-        "subCommands": []
-    },
-    {
         "command": "cache",
         "flags": [],
         "subCommands": [
@@ -41,14 +23,6 @@
             "dir",
             "clean"
         ]
-    },
-    {
-        "command": "check",
-        "flags": [
-            "--integrity",
-            "--verify-tree"
-        ],
-        "subCommands": []
     },
     {
         "command": "clean",
@@ -66,27 +40,8 @@
         ]
     },
     {
-        "command": "create",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "dedupe",
-        "flags": [],
-        "subCommands": []
-    },
-    {
         "command": "exec",
         "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "generate-lock-entry",
-        "flags": [
-            "--use-manifest <location>:description",
-            "--resolved <resolved>:description",
-            "--registry <registry>:description"
-        ],
         "subCommands": []
     },
     {
@@ -105,26 +60,8 @@
         ]
     },
     {
-        "command": "help",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "import",
-        "flags": [],
-        "subCommands": []
-    },
-    {
         "command": "info",
         "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "init",
-        "flags": [
-            "-y:use default options",
-            "--yes:use default options"
-        ],
         "subCommands": []
     },
     {
@@ -148,64 +85,12 @@
         "subCommands": []
     },
     {
-        "command": "licenses",
-        "flags": [],
-        "subCommands": [
-            "ls",
-            "generate-disclaimer"
-        ]
-    },
-    {
         "command": "link",
         "flags": [],
         "subCommands": []
     },
     {
-        "command": "lockfile",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "login",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "logout",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "list",
-        "flags": [
-            "--depth:Limit the depth of the shown dependencies"
-        ],
-        "subCommands": []
-    },
-    {
         "command": "outdated",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "owner",
-        "flags": [],
-        "subCommands": [
-            "add",
-            "rm",
-            "ls"
-        ]
-    },
-    {
-        "command": "pack",
-        "flags": [
-            "-f:filename",
-            "--filename <filename>:filename"
-        ],
-        "subCommands": []
-    },
-    {
-        "command": "prune",
         "flags": [],
         "subCommands": []
     },
@@ -229,55 +114,7 @@
         "subCommands": []
     },
     {
-        "command": "run",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "tag",
-        "flags": [],
-        "subCommands": [
-            "add",
-            "rm",
-            "ls"
-        ]
-    },
-    {
-        "command": "team",
-        "flags": [],
-        "subCommands": [
-            "create",
-            "destroy",
-            "add",
-            "rm",
-            "ls"
-        ]
-    },
-    {
         "command": "unlink",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "upgrade",
-        "flags": [
-            "-S:upgrade packages under the specified scope",
-            "--scope <scope>:upgrade packages under the specified scope",
-            "--latest:upgrade packages to the latest version, ignoring version ranges in package.json"
-        ],
-        "subCommands": []
-    },
-    {
-        "command": "version",
-        "flags": [
-            "--new-version:new version",
-            "--message:message",
-            "--no-git-tag-version:no git tag version"
-        ],
-        "subCommands": []
-    },
-    {
-        "command": "versions",
         "flags": [],
         "subCommands": []
     },
@@ -288,170 +125,6 @@
     },
     {
         "command": "workspace",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "upgrade-interactive",
-        "flags": [
-            "-E:upgrade to most recent release with exact version",
-            "--exact:upgrade to most recent release with exact version",
-            "-T:upgrade to most recent release with patch version",
-            "--tilde:upgrade to most recent release with patch version"
-        ],
-        "subCommands": []
-    },
-    {
-        "command": "upgrade-interactive",
-        "flags": [
-            "-E:upgrade to most recent release with exact version",
-            "--exact:upgrade to most recent release with exact version",
-            "-T:upgrade to most recent release with patch version",
-            "--tilde:upgrade to most recent release with patch version"
-        ],
-        "subCommands": []
-    },
-    {
-        "command": "generate-lock-entry",
-        "flags": [
-            "--use-manifest <location>:description",
-            "--resolved <resolved>:description",
-            "--registry <registry>:description"
-        ],
-        "subCommands": []
-    },
-    {
-        "command": "c",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "i",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "la",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "ll",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "ln",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "ls",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "r",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "rb",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "rm",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "t",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "tst",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "un",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "up",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "v",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "add-user",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "adduser",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "author",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "dist-tag",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "dist-tags",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "isntall",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "run-script",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "run-script",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "show",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "uninstall",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "update",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "verison",
-        "flags": [],
-        "subCommands": []
-    },
-    {
-        "command": "view",
         "flags": [],
         "subCommands": []
     }
