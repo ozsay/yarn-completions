@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const completionOn = ['add', 'cache', 'clean', 'config', 'exec', 'global', 'info', 'install', 'link', 'outdated', 'publish', 'remove', 'unlink', 'why', 'workspace'];
+const completionOn = ['add', 'cache', 'clean', 'config', 'exec', 'global', 'info', 'install', 'link', 'outdated', 'publish', 'remove', 'unlink', 'why', 'workspace', 'run'];
 // const completionOn = [];
 
 const commands = require('../lib/commands').createCommands(completionOn);

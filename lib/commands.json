@@ -127,5 +127,10 @@
         "command": "workspace",
         "flags": [],
         "subCommands": []
+    },
+    {
+        "command": "run",
+        "flags": [],
+        "subCommands": []
     }
 ]
