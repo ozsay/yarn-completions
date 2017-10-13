@@ -12,25 +12,15 @@
   "author": "Mickael Daniel <daniel.mickael@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "lodash.intersection": "^4.4.0",
-    "tabtab": "^2.2.0",
+    "lodash": "^4.17.4",
+    "tabtab": "^2.2.2",
     "user-home": "^2.0.0",
-    "yarn": "^0.15.1"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.16.0",
-    "babel-preset-es2015": "^6.16.0",
-    "npm-watch": "^0.1.6"
-  },
-  "watch": {
-    "babel": "lib/**/*.js"
+    "yarn": "0.27.5"
   },
   "scripts": {
     "postinstall": "tabtab install --name yarn --completer completions-yarn --auto",
     "postuninstall": "tabtab uninstall --name yarn --auto",
-    "babel": "babel --presets babel-preset-es2015 lib/ -d src/",
-    "test": "export cmd=\"yarn \" && DEBUG=\"tabtab*\" COMP_POINT=\"4\" COMP_LINE=\"$cmd\" COMP_CWORD=\"$cmd\" completions-yarn completion -- yarn $cmd",
-    "prepublish": "npm run babel",
-    "watch": "npm-watch"
+    "output-commands": "node ./bin/output-commands.js",
+    "output-globals": "node ./bin/output-global-options.js"
   }
 }
