@@ -16,15 +16,15 @@
         "command": "add",
         "flags": [
             "-D:save package to your `devDependencies`",
-            " --dev:save package to your `devDependencies`",
+            "--dev:save package to your `devDependencies`",
             "-P:save package to your `peerDependencies`",
-            " --peer:save package to your `peerDependencies`",
+            "--peer:save package to your `peerDependencies`",
             "-O:save package to your `optionalDependencies`",
-            " --optional:save package to your `optionalDependencies`",
+            "--optional:save package to your `optionalDependencies`",
             "-E:install exact version",
-            " --exact:install exact version",
+            "--exact:install exact version",
             "-T:install most recent release with the same minor version",
-            " --tilde:install most recent release with the same minor version"
+            "--tilde:install most recent release with the same minor version"
         ],
         "subCommands": []
     },
@@ -123,7 +123,7 @@
         "command": "init",
         "flags": [
             "-y:use default options",
-            " --yes:use default options"
+            "--yes:use default options"
         ],
         "subCommands": []
     },
@@ -131,19 +131,19 @@
         "command": "install",
         "flags": [
             "-g:DEPRECATED",
-            " --global:DEPRECATED",
+            "--global:DEPRECATED",
             "-S:DEPRECATED - save package to your `dependencies`",
-            " --save:DEPRECATED - save package to your `dependencies`",
+            "--save:DEPRECATED - save package to your `dependencies`",
             "-D:DEPRECATED - save package to your `devDependencies`",
-            " --save-dev:DEPRECATED - save package to your `devDependencies`",
+            "--save-dev:DEPRECATED - save package to your `devDependencies`",
             "-P:DEPRECATED - save package to your `peerDependencies`",
-            " --save-peer:DEPRECATED - save package to your `peerDependencies`",
+            "--save-peer:DEPRECATED - save package to your `peerDependencies`",
             "-O:DEPRECATED - save package to your `optionalDependencies`",
-            " --save-optional:DEPRECATED - save package to your `optionalDependencies`",
+            "--save-optional:DEPRECATED - save package to your `optionalDependencies`",
             "-E:DEPRECATED",
-            " --save-exact:DEPRECATED",
+            "--save-exact:DEPRECATED",
             "-T:DEPRECATED",
-            " --save-tilde:DEPRECATED"
+            "--save-tilde:DEPRECATED"
         ],
         "subCommands": []
     },
@@ -200,7 +200,7 @@
         "command": "pack",
         "flags": [
             "-f:filename",
-            " --filename <filename>:filename"
+            "--filename <filename>:filename"
         ],
         "subCommands": []
     },
@@ -262,7 +262,7 @@
         "command": "upgrade",
         "flags": [
             "-S:upgrade packages under the specified scope",
-            " --scope <scope>:upgrade packages under the specified scope",
+            "--scope <scope>:upgrade packages under the specified scope",
             "--latest:upgrade packages to the latest version, ignoring version ranges in package.json"
         ],
         "subCommands": []
@@ -295,9 +295,9 @@
         "command": "upgrade-interactive",
         "flags": [
             "-E:upgrade to most recent release with exact version",
-            " --exact:upgrade to most recent release with exact version",
+            "--exact:upgrade to most recent release with exact version",
             "-T:upgrade to most recent release with patch version",
-            " --tilde:upgrade to most recent release with patch version"
+            "--tilde:upgrade to most recent release with patch version"
         ],
         "subCommands": []
     },
@@ -305,9 +305,9 @@
         "command": "upgrade-interactive",
         "flags": [
             "-E:upgrade to most recent release with exact version",
-            " --exact:upgrade to most recent release with exact version",
+            "--exact:upgrade to most recent release with exact version",
             "-T:upgrade to most recent release with patch version",
-            " --tilde:upgrade to most recent release with patch version"
+            "--tilde:upgrade to most recent release with patch version"
         ],
         "subCommands": []
     },
