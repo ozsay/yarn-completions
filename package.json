@@ -1,13 +1,13 @@
 {
   "name": "@ozsay/yarn-completions",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Tabtab plugin to handle completion results for Yarn",
   "bin": {
     "completions-yarn-install": "bin/install.sh",
     "completions-yarn": "bin/yarn-completions.js"
   },
   "repository": {
-    "url": "git@github.com:mklabs/yarn-completions.git",
+    "url": "git@github.com:ozsay/yarn-completions.git",
     "type": "git"
   },
   "author": "Mickael Daniel <daniel.mickael@gmail.com>",
