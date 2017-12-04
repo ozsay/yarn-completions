@@ -1,6 +1,6 @@
 {
   "name": "@ozsay/yarn-completions",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "Tabtab plugin to handle completion results for Yarn",
   "bin": {
     "completions-yarn-install": "bin/install.sh",
