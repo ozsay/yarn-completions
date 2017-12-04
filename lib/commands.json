@@ -2,6 +2,8 @@
     {
         "command": "add",
         "flags": [
+            "-W:required to run yarn add inside a workspace root",
+            "--ignore-workspace-root-check:required to run yarn add inside a workspace root",
             "-D:save package to your `devDependencies`",
             "--dev:save package to your `devDependencies`",
             "-P:save package to your `peerDependencies`",
@@ -17,17 +19,15 @@
     },
     {
         "command": "cache",
-        "flags": [],
+        "flags": [
+            "--pattern:filter cached packages by pattern"
+        ],
         "subCommands": [
             "ls",
+            "list",
             "dir",
             "clean"
         ]
-    },
-    {
-        "command": "clean",
-        "flags": [],
-        "subCommands": []
     },
     {
         "command": "config",
@@ -36,7 +36,8 @@
             "set",
             "get",
             "delete",
-            "list"
+            "list",
+            "current"
         ]
     },
     {
@@ -52,6 +53,7 @@
         "subCommands": [
             "add",
             "bin",
+            "dir",
             "ls",
             "list",
             "remove",
