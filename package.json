@@ -1,9 +1,8 @@
 {
   "name": "@ozsay/yarn-completions",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Tabtab plugin to handle completion results for Yarn",
   "bin": {
-    "completions-yarn-install": "bin/install.sh",
     "completions-yarn": "bin/yarn-completions.js"
   },
   "repository": {
@@ -21,6 +20,7 @@
     "yarn": "https://github.com/yarnpkg/yarn/archive/18dbad6e04ef50d3851bc1ffb01df58f2fafdeb0.tar.gz"
   },
   "scripts": {
+    "postinstall": "tabtab install --name yarn --completer completions-yarn --auto",
     "postuninstall": "tabtab uninstall --name yarn --auto",
     "output-commands": "node ./bin/output-commands.js",
     "output-globals": "node ./bin/output-global-options.js",
